@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+html, body{
+    height: 100%;    
+    background-color: white;
+}
+header{
+    height: 200px;
+    background-color: aliceblue;
+}
+h1 {
+    text-align: center;
+}
+.conntent{
+    margin-left: 5%;
+    height: 100%;
+}
+.row{
+    border: 5px solid red;
+    height: 400px;
+    width: 15%;
+    margin-left: 2%;
+    display: inline-block;
+    text-align: justify;
+    
+}
+.row p{
+    margin-left: 2%
+}
+footer{
+    height: 200px;
+    background-color: aliceblue;
+    position: relative;
+}
+footer p{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+}
